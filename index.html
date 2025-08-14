@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+<script src="index.js"></script>
+</head>
+<body>
+<nav class="navbar bg-body-tertiary position-fixed">
+  <div class="container">
+    <img src="logo.png">
+  <h2>Faisin S Muhammed</h2>
+   <div class="d-grid gap-2 d-md-block">
+  <a href="#sir"><button class="btn btn-secondary" type="button">About</button></a>
+  <a href="#skull"><button class="btn btn-secondary" type="button">Skill</button></a>
+  <a href="#works"><button class="btn btn-secondary" type="button">Works</button></a>
+  <a href="#submit-form"><button class="btn btn-secondary" type="button">Contact</button></a></div>
+  </div>
+</nav>
+    <div id="sir"class="container-sm bg-secondary d-flex position-absolute">
+    <div class="dad"><h2>Hi I'm &nbsp;FAISY</h2>
+    <p> a passionate Web Developer.
+I specialize in creating modern, responsive, and user-friendly websites using technologies like HTML, CSS, JavaScript, and frameworks such as React and Node.js. With a strong eye for detail and a focus on performance, I build web experiences that are not only functional but also elegant.
+
+I love turning complex problems into clean, efficient code and continuously learning new tools to improve my craft. Whether it's frontend, backend, or full-stack development — I bring ideas to life through code.
+
+</p></div>
+    </div>
+    <img class="faisin" src="faisin.png">
+    <div id="skull" class="container-sm bg-warning position-absolute z-1">
+      <h1>Skills</h1>
+    </div>
+    <div class="container-sm bg-light">
+      <img class="html" src="https://icon2.cleanpng.com/20180623/kwp/kisspng-web-development-html-software-development-software-modern-pattern-5b2e9b177ec089.4478529015297810155192.jpg">
+      <img class="css"src="https://static.vecteezy.com/system/resources/previews/051/336/381/non_2x/css-programming-blue-logo-free-png.png">
+      <img class="js" src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png">
+      <img class="bs" src="https://e7.pngegg.com/pngimages/439/345/png-clipart-bootstrap-logo-thumbnail-tech-companies-thumbnail.png">
+    </div>
+    <div id="works"class="container-sm position-absolute bg-warning d-flex justify-content-center">
+      <h2>My Works</h2>
+    </div>
+    <img class="com" src="booking.png">
+    <img class="bar" src="nav.png">
+    <img class="face" src="facebook.png">
+    <div id="contact" class="container-sm d-flex justify-content-center position-absolute">
+      <h2>Contact Me</h2>
+    </div>
+        <div class="outer">
+        <!-- <form id="submit-form">
+            <label >Name</label><br>
+            <input id="name" type="name"  name="name" placeholder="Enter your name"><br>
+            <label>Email</label><br>
+            <input id="email" type="email" placeholder="name@gmail.com" name="email"><br>
+            <label>Message</label><br>
+            <textarea id="message" rows="5" cols="42" placeholder="your message" name="message"></textarea><br><br>
+            <button onclick="sendMail()">Send</button><br><br>
+            </form> -->
+            <form id="submit-form">
+  <label>Name</label><br>
+  <input id="name" type="text" name="name" placeholder="Enter your name" required><br>
+  
+  <label>Email</label><br>
+  <input id="email" type="email" placeholder="name@gmail.com" name="email" required><br>
+  
+  <label>Message</label><br>
+  <textarea id="message" rows="5" cols="42" placeholder="Your message" name="message" required></textarea><br><br>
+  
+  <button type="submit">Send</button><br><br>
+</form>
+      </div>
+      <footer id="beer"><div class="deer">
+        <h2>Address</h2>
+        <p><span>Email:</span>faisns16@gmail.com</p>
+        <p><span>Location:</span>Kaniyantharayil,K.S Puram(PO)Kollam(690544)</p>
+         <p><span>Country:</span>India</p>
+      </div><div class="set"><a href="https://www.linkedin.com/in/faisin-s-770283304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+      <i class="fa-brands fa-github"></i>
+    <a href="https://www.instagram.com/faisin_s_muhammed4?igsh=MXZtNHIxdG8wdm1vcQ=="><i class="fa-brands fa-square-instagram"></i></a>&nbsp;
+  <i class="fa-regular fa-copyright"></i>2025 faisin s muhammed</div></footer>
+  <script src="https://smtpjs.com/v3/smtp.js">
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js"></script>
+<!-- <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  //  (function(){
+  //   console.log("succsees")
+  //     emailjs.init({
+  //       publicKey: "Ijy6Jc_YexlfJfQhc",
+  //     });
+  //  })();
+//   (function(){
+//     emailjs.init({
+//       publicKey: "Ijy6Jc_YexlfJfQhc"
+//     });
+//   })();
+</script> -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+  // Initialize EmailJS with your public key
+  (function(){
+    emailjs.init({
+      publicKey: "Ijy6Jc_YexlfJfQhc"
+    });
+  })();
+
+  // Attach submit event listener
+  document.getElementById("submit-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // stop form from reloading page
+
+    // Prepare data — match these keys to your EmailJS template variables
+    const params = {
+      name: document.getElementById("name").value,
+      email: document.getElementById("email").value,
+      message: document.getElementById("message").value,
+    };
+
+    const serviceID = "service_z2uh5pe"; // from EmailJS dashboard
+    const templateID = "template_q8c36jv"; // from EmailJS dashboard
+
+    // Send the email
+    emailjs.send(serviceID, templateID, params)
+      .then(function(response) {
+        console.log("Email sent!", response);
+        alert("Your message has been sent successfully!");
+        document.getElementById("submit-form").reset(); // clear the form
+      })
+      .catch(function(error) {
+        console.error("Error sending email:", error);
+        alert("Failed to send the message. Check the console for errors.");
+      });
+  });
+</script>
+</body>
+</html>
